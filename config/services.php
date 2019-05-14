@@ -46,4 +46,9 @@ return [
         'schedule' => env('HOLZKE_SCHEDULE'),
     ],
 
+    'vue_client' => [
+        'id' => env('VUE_CLIENT_ID'),
+        'secret' => env('VUE_CLIENT_SECRET'),
+    ],
+
 ];
